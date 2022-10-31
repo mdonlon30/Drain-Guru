@@ -3,6 +3,7 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
+
 nav {
     height: 120px;
     background-color: rgb(36, 11, 51);
@@ -108,7 +109,7 @@ nav div {
     align-items: center;
 }
 
-.container {
+.container1 {
     display: flex;
     justify-content: center;
     gap: 35px;
@@ -241,61 +242,24 @@ input[type=text], select, textarea {
 
 
 
-.box {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    width: 70%;
+    width: 56%;
 }
 
 
 .boot {
     background-image: url("../Images/boots.jpg");
-    height: 450px;
-    width: 700px;
+    height: 500px;
+    width: 500px;
     background-size: cover;
     background-position: center;
 }
 
-.center {
-    margin: 0 auto;
-}
 
-.box div {
-    width: 60%;
-}
-
-.box div h1 {
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: 0;
-}
-
-.box div p {
-    color: rgb(69, 68, 68);
-    font-weight: 300;
-    line-height: 25px;
-}
-
-@media only screen and (max-width: 820px) {
-    .box {
-        display: block;
-        width: 100%;
-    }
-
-    .c {
-        margin: 0 auto;
-    }
-    
-    .boot {
-        height: 40vh;
-    }
-
-    .box div {
-        width: 80%;
-    }
-}
     
 
 .number {
